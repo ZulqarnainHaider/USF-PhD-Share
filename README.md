@@ -11,12 +11,12 @@ https://askubuntu.com/questions/953093/installing-julia-v0-6-on-linux-ubuntu-16-
 
 The file will look something like this:  # .bashrc
 
-# Source global definitions
+[insert hash here] Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-# User specific aliases and functions
+[insert hash here] User specific aliases and functions
 export GUROBI_HOME="/home/z/zulqarnain/gurobi/gurobi752/linux64"
 export PATH="${PATH}:${GUROBI_HOME}/bin"
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
