@@ -9,6 +9,23 @@
 2. Editing .bashrc file to include path to Julia, python and Gurobi executables in PATH EV. 
 https://askubuntu.com/questions/953093/installing-julia-v0-6-on-linux-ubuntu-16-04
 
+The file will look something like this:  # .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific aliases and functions
+export GUROBI_HOME="/home/z/zulqarnain/gurobi/gurobi752/linux64"
+export PATH="${PATH}:${GUROBI_HOME}/bin"
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
+export GRB_LICENSE_FILE="$HOME/gurobi.lic"
+export PATH=$HOME/bin:$PATH
+export PATH="${PATH}:/home/z/zulqarnain/Julia/julia-0d7248e2ff/bin"
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/home/z/zulqarnain/Julia/julia-0d7248e2ff/lib"
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/home/z/zulqarnain/Julia/julia-0d7248e2ff/lib/julia"
+
 3. Add relevant packages: Pkg.add("ABC")
 
 4. Run the .jl file using "include("/A/B/C/abc.jl")
