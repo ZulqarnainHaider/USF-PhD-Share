@@ -2,7 +2,7 @@
 
 ## Installing Julia, Python, Gurobi on a Linux server using Putty
 
-https://julialang.org/downloads/platform.html
+0. General platform specific instructions to be found here: https://julialang.org/downloads/platform.html
 
 1. Download latest versions of julia, gurobi, and python for Linux. They will likely be tar files of type .gz extension. Extract the files:   https://www.interserver.net/tips/kb/extract-tar-gz-files-using-linux-command-line/
 
