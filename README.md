@@ -28,4 +28,6 @@ export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/home/z/zulqarnain/Julia/julia-0d7248
 
 3. Add relevant packages: Pkg.add("ABC")
 
-4. Run the .jl file using "include("/A/B/C/abc.jl")
+4. Install Gurobi License: https://user.gurobi.com/download/licenses/academic/64c37766-e4fe-11e7-ac4a-0a4522cc772c 
+
+5. Run the .jl file using "include("/A/B/C/abc.jl")
