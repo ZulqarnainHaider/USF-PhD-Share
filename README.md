@@ -31,3 +31,7 @@ https://askubuntu.com/questions/953093/installing-julia-v0-6-on-linux-ubuntu-16-
 4. Install Gurobi License: https://user.gurobi.com/download/licenses/academic/64c37766-e4fe-11e7-ac4a-0a4522cc772c , https://user.gurobi.com/download/licenses/free-academic
 
 5. Run the .jl file using "include("/A/B/C/abc.jl")
+
+# Modeling
+
+http://www.laurentlessard.com/teaching/cs524/slides/19%20-%20logic%20constraints%20and%20integer%20variables.pdf
