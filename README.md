@@ -35,3 +35,14 @@ https://askubuntu.com/questions/953093/installing-julia-v0-6-on-linux-ubuntu-16-
 # Modeling
 
 http://www.laurentlessard.com/teaching/cs524/slides/19%20-%20logic%20constraints%20and%20integer%20variables.pdf
+
+
+
+
+
+# Job Hunt
+
+## OR Analyst:  
+1. APML, SQL, relational databases, object oriented programming, Simul8, network modeling, Perl, Ruby, R, SAS, SQL, Python
+2. Experience prototyping and developing software in traditional programming languages (C++/ Java/ Python/Perl.), Data Mining, 
+3. Familiarity with enterprise-wide application development life-cycle
